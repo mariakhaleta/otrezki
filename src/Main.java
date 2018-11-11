@@ -152,27 +152,28 @@ public class Main {
 
         static int max_equal_sum(Integer[] otrezki){
 
-            MyHashMap D = new MyHashMap(0,0);
+//            MyHashMap D = new MyHashMap(0,0);
+//
+//            for (int i:otrezki) {
+//
+//                MyHashMap D2 = new MyHashMap();
+//                D2 = D.copy(D, D2);
+//
+//                int d, s, s2;
+//                d = D.getValue();
+//                s = D.getKey();
+//
+//                for (int m=0; m<d; i++ ){
+//                    for (int j=0; j<s; i++ ){
+//                        s2 = i+s;
+//                        //D2.setKey(abs(d-i))= D2.setValue();
+//                        D=D2;
+//                       // return D/2;
+//                    }
+//                }
+//            }
 
-            for(int i = 0; i < otrezki.length; i++){
-
-                MyHashMap D2 = new MyHashMap();
-                D2 = D.copy(D, D2);
-
-                int d, s, s2;
-                d = D.getValue();
-                s = D.getKey();
-
-                for (int m=0; m<d; i++ ){
-                    for (int j=0; j<s; i++ ){
-                        s2 = i+s;
-                        //D2.setKey(abs(d-i))= D2.setValue();
-                        D=D2;
-                       // return D/2;
-                    }
-                }
-            }
-
+            FastHashMap D = new FastHashMap();
             return 0;
         }
 
